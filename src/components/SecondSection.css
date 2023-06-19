@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kiwi+Maru&family=Merriweather:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+.second {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.second-container {
+  width: 100%;
+  display: flex;
+  padding: 30px;
+}
+
+.second-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-text p {
+  font-size: 18px;
+}
+
+.what-description {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.fa-house {
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.second-text h3 {
+  font-size: 28px;
+  padding-top: 40px;
+}
+
+.second-text h3 span {
+  color: #5ab6e8;
+}
+
+.second-text p span {
+  color: red;
+}
+
+@media screen and (min-width:768px) {
+  .second-container {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+  }
+  
+  .second-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .second-text p {
+    font-size: 20px;
+  }
+  
+  .what-description {
+    padding-top: 20px;
+  }
+  
+  .fa-house {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  
+  .second-text h3 {
+    font-size: 28px;
+    padding-top: 40px;
+  }
+
+
+}
+
+@media screen and (min-width:1280px) {
+
+  .second-container {
+    width: 100%;
+    display: flex;
+    padding: 240px;
+  }
+
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kiwi+Maru&family=Merriweather:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+
+.hero {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+  font-family: 'Kiwi Maru', serif;
+  background: #cff7de;
+}
+
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.hero-container .leftSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.hero-container  .yukimuro {
+  width: 300px;
+  height: 150px;
+  right: 0;
+}
+
+
+.hero-container .rightSide {
+  display: flex;
+  align-items: center;
+} 
+
+.yukimuro-inner {
+  padding: 10px;
+  background: #fff;
+  margin: 20px 20px 10px;
+
+}
+
+.yukimuro-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightSide p {
+  font-size: 18px;
+}
+
+.rightSide h3 {
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width:768px) {
+  .hero-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+  }
+  
+  .hero-container .leftSide {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-container  .yukimuro {
+    width: 400px;
+    height: 260px;
+  }
+  
+  
+  .hero-container .rightSide {
+    display: flex;
+    align-items: center;
+  } 
+  
+  .yukimuro-inner {
+    padding: 20px;
+    margin-right: 40px;
+  }
+  
+  .yukimuro-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rightSide p {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  
+  .rightSide h3 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+
+
+}
